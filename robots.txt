@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ife-01.github.io/sagamu_phc/sitemap.xml
