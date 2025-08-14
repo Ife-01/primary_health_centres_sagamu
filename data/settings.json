@@ -1,0 +1,17 @@
+{
+  "services_global": [
+    "Immunization",
+    "Antenatal",
+    "Delivery",
+    "Family Planning"
+  ],
+  "opening_hours_global": {
+    "Mon": "24 hours",
+    "Tue": "24 hours",
+    "Wed": "24 hours",
+    "Thu": "24 hours",
+    "Fri": "24 hours",
+    "Sat": "24 hours",
+    "Sun": "24 hours"
+  }
+}

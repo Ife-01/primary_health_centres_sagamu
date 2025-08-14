@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sagamu PHC Directory – National Health Fellows</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Directory of Primary Health Centres (PHCs) in Sagamu, Nigeria. Find locations, services, clinic days, and directions.">
+  <meta name="keywords" content="Sagamu PHC, Ogun State healthcare, primary health centres Nigeria, immunization, antenatal">
+  <meta name="author" content="National Health Fellows">
+  <meta property="og:title" content="Sagamu PHC Directory">
+  <meta property="og:description" content="Find PHC locations, services, clinic days, directions and contact info in Sagamu, Ogun State.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/ogun_state_logo.jpg">
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-left">
+      <img src="assets/nhf_logo.png" alt="NHF logo">
+      <div class="title">
+        <h1>Sagamu PHC Directory</h1>
+        <p>National Health Fellows</p>
+      </div>
+    </div>
+    <div class="brand-right">
+      <img src="assets/swap_logo.png" alt="SWAP logo">
+      <img src="assets/ogun_state_logo.jpg" alt="Ogun State logo">
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="control">
+        <label for="searchInput">Search</label>
+        <input id="searchInput" type="text" placeholder="Search by name, address, ward, or directions...">
+      </div>
+      <div class="control">
+        <label for="wardFilter">Ward</label>
+        <select id="wardFilter">
+          <option value="">All wards</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="dayFilter">Day</label>
+        <select id="dayFilter">
+          <option value="">Any day</option>
+          <option>Mon</option>
+          <option>Tue</option>
+          <option>Wed</option>
+          <option>Thu</option>
+          <option>Fri</option>
+          <option>Sat</option>
+          <option>Sun</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="map-and-list">
+      <div id="map"></div>
+      <div id="list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Disclaimer: This directory was developed as part of the National Health Fellows program. Information was current as of 2025-08-14. Always confirm details with the facility before visiting.</p>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <!-- Fuse.js for search -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="script.js"></script>
+</body>
+</html>

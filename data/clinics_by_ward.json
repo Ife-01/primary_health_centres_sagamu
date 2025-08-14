@@ -1,0 +1,136 @@
+{
+  "OGIJO": {
+    "immunization": [
+      "Tue",
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon",
+      "Thu"
+    ]
+  },
+  "AGBOWA": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "AIYEGBAMI": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "AJAKA": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "ITUNSOKU": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon",
+      "Tue"
+    ]
+  },
+  "SABO AGURA": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon",
+      "Tue"
+    ]
+  },
+  "BATORO": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "ODELEMO": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "IJAGBA": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "IPOJI": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "ISOTE": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "LATAWA": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Tue"
+    ]
+  },
+  "SOYINDO": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "OJUMELE": {
+    "immunization": [
+      "Tue",
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon",
+      "Thu"
+    ]
+  },
+  "SABO GRA": {
+    "immunization": [
+      "Tue"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  },
+  "SIMAWA": {
+    "immunization": [
+      "Wed"
+    ],
+    "antenatal": [
+      "Mon"
+    ]
+  }
+}
