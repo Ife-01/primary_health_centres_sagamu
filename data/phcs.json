@@ -47,20 +47,20 @@
   {
     "name": "AMODU ALOWOMATANA",
     "address": "Amodu Alowomatana",
-    "ward": "ITUNSOKU",
+    "ward": "ITUNSOKUN",
     "lat": 6.846502,
     "lng": 3.647329,
     "phone": null,
-    "directions": "Take a bike to Amodu Alowomatan Health centre, Ijaba.\nLocated beside Noibi Mosque."
+    "directions": "Take a bike to Amodu Alowomatan Health centre, Itunsokun.\nLocated beside Noibi Mosque."
   },
   {
     "name": "ARUBA",
-    "address": "Isale Oko, Sagamu",
+    "address": "Sabo Agura, Sagamu",
     "ward": "SABO AGURA",
     "lat": 6.825422,
     "lng": 3.655275,
     "phone": null,
-    "directions": "Take a bike to Aruba Health centre.\nLocated close to Aruba Power Line."
+    "directions": "Take a bike to Aruba Health centre.\nLocated close to Aruba Power Line or Sabo Agura."
   },
   {
     "name": "BATORO",
@@ -108,9 +108,9 @@
     "directions": "Take a bike to Isote Health centre"
   },
   {
-    "name": "ITUNSOKU",
-    "address": "Itunsoku",
-    "ward": "ITUNSOKU",
+    "name": "ITUNSOKUN",
+    "address": "Itunsokun",
+    "ward": "ITUNSOKUN",
     "lat": 6.841372,
     "lng": 3.646416,
     "phone": null,
