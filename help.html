@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How postcode search works – Sagamu PHC Directory</title>
+  <meta name="description" content="What a Nigerian digital postcode is, how to read one, and how to search the Sagamu PHC Directory by postcode.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-left">
+      <img src="assets/nhf_logo.png" alt="NHF logo">
+      <div class="title">
+        <h1>Sagamu Primary health centres Directory</h1>
+        <p>National Health Fellows</p>
+      </div>
+    </div>
+    <nav class="header-nav"><a href="index.html">← Back to directory</a></nav>
+  </header>
+
+  <main class="container help">
+    <h2>Help</h2>
+    <nav class="toc" aria-label="On this page">
+      <a href="#finding">Finding a health centre</a>
+      <a href="#reading">Reading a result</a>
+      <a href="#postcodes">Postcodes</a>
+      <a href="#report">Report a problem</a>
+    </nav>
+
+    <section id="finding">
+      <h3>Finding a health centre</h3>
+      <p>Everything happens on the <a href="index.html">directory page</a>. The map and the list always show the same facilities, so whatever you search or filter changes both.</p>
+      <h4>Search</h4>
+      <p>Type a name, address, ward or part of the directions, for example <code>Ogijo</code> or <code>Sabo</code>. Small spelling mistakes are forgiven. You can also search by postcode, which is explained <a href="#postcodes">below</a>.</p>
+      <h4>Ward filter</h4>
+      <p>Pick a ward to see only the health centres in it. Choose <em>All wards</em> to go back to everything.</p>
+      <h4>Day and clinic filters</h4>
+      <ul>
+        <li><strong>Day:</strong> shows the health centres that are open on that day. Every health centre is listed as open 24 hours, every day, so by itself this shows them all. That is a general assumption, so call or ask ahead.</li>
+        <li><strong>Clinic:</strong> choose <em>Immunization</em> or <em>Antenatal</em> to see only health centres whose ward runs that clinic. Clinic days are set for each ward, so every health centre in a ward has the same days.</li>
+        <li><strong>Both together:</strong> the day then means the clinic day. For example, <em>Antenatal</em> and <em>Mon</em> shows health centres with an antenatal clinic on Monday.</li>
+      </ul>
+      <p>Clinics currently run from Monday to Thursday. If you pick a clinic and a day with no clinics, such as Friday, the list will be empty. The health centres are still open. Choose <em>Any clinic</em> to see them again.</p>
+    </section>
+
+    <section id="reading">
+      <h3>Reading a result</h3>
+      <p>Each health centre appears as a card in the list and as a pin on the map. Tap a pin to see the same details in a pop-up.</p>
+      <ul>
+        <li><strong>Ward and address:</strong> where the health centre is.</li>
+        <li><strong>Postcode:</strong> the digital postcode, when it has been checked.</li>
+        <li><strong>Directions:</strong> how to get there from a well-known place, usually by bike, tricycle (keke) or on foot. These are written for people who know the area, so look for the landmark named in them.</li>
+        <li><strong>Services:</strong> Immunization, Antenatal, Delivery and Family Planning. The same four are shown for every health centre, so call or ask ahead if you need a specific service.</li>
+        <li><strong>Clinic days:</strong> badges such as <em>Immunization: Wed</em> and <em>Antenatal: Mon</em> show the days those clinics run. They are set for the whole ward, so health centres in the same ward share the same days.</li>
+        <li><strong>Opening hours:</strong> the days and hours the health centre is open.</li>
+        <li><strong>Open in Maps:</strong> opens Google Maps at the health centre's pin so you can get turn-by-turn directions.</li>
+      </ul>
+      <p class="note">Always confirm details with the health centre before you travel.</p>
+    </section>
+
+    <section id="postcodes">
+      <h3>Postcodes</h3>
+      <h4>What is a postcode?</h4>
+      <p>The Nigerian digital postcode is a short code that points to a specific place, such as a building, a street or a district. It is issued by NIPOST, the Nigerian Postal Service. Each code has 11 letters and numbers, and the first two letters tell you the state. Codes for Ogun State start with <strong>OG</strong>.</p>
+
+      <h4>How to read one</h4>
+      <p>Take <strong>OG-20-B70-JY-20</strong>. It reads from the widest place to the narrowest:</p>
+      <table class="help-table">
+        <thead><tr><th>Part</th><th>Level</th><th>What it points to</th></tr></thead>
+        <tbody>
+          <tr><td>OG</td><td>State</td><td>Ogun State</td></tr>
+          <tr><td>20</td><td>Local government</td><td>Sagamu</td></tr>
+          <tr><td>B70</td><td>District</td><td>A district within Sagamu</td></tr>
+          <tr><td>JY</td><td>Area</td><td>An area within that district</td></tr>
+          <tr><td>20</td><td>Building</td><td>One building or location</td></tr>
+        </tbody>
+      </table>
+      <p class="note">The hyphens are only there to make the code easier to read. <strong>OG20B70JY20</strong> is the same code. The level names follow NIPOST's own description. The exact position of each part is based on how the codes in this directory are laid out.</p>
+
+      <h4>Searching by postcode</h4>
+      <p>Type all or part of a postcode in the search box. The more of the code you type, the narrower the results.</p>
+      <table class="help-table">
+        <thead><tr><th>Type this</th><th>To find</th><th>Try it</th></tr></thead>
+        <tbody>
+          <tr><td><code>OG</code></td><td>Everything in the state</td><td><a href="index.html?q=OG">OG</a></td></tr>
+          <tr><td><code>OG-20</code></td><td>Everything in Sagamu</td><td><a href="index.html?q=OG-20">OG-20</a></td></tr>
+          <tr><td><code>OG-20-B70</code></td><td>One district</td><td><a href="index.html?q=OG-20-B70">OG-20-B70</a></td></tr>
+          <tr><td><code>OG-20-B70-JY</code></td><td>One area</td><td><a href="index.html?q=OG-20-B70-JY">OG-20-B70-JY</a></td></tr>
+          <tr><td><code>OG-20-B70-JY-20</code></td><td>One building</td><td><a href="index.html?q=OG-20-B70-JY-20">OG-20-B70-JY-20</a></td></tr>
+        </tbody>
+      </table>
+      <ul>
+        <li>Hyphens, spaces and capital letters don't matter. <code>og20b70</code> works the same as <code>OG-20-B70</code>.</li>
+        <li>You can start at the district. <code>B70</code> and <code>B70-JY</code> work without typing <code>OG-20</code> first.</li>
+        <li>An area code can't be searched on its own. Typing just <code>JY</code> won't work, so put the district in front, as in <code>B70-JY</code>.</li>
+      </ul>
+
+      <h4>Why does my health centre have no postcode?</h4>
+      <p>We only show postcodes that have been checked. Some are still being verified and will be added when they are.</p>
+      <h4>Is this the same as the old 6-digit postal code?</h4>
+      <p>No. The digital postcode is longer and points to a much more specific place than the old code did.</p>
+      <h4>How do I find a postcode of my own?</h4>
+      <p>Use the <a href="https://postcode.gov.ng/find" target="_blank" rel="noopener">NIPOST postcode finder</a>, or read more at <a href="https://postcode.gov.ng/" target="_blank" rel="noopener">postcode.gov.ng</a>.</p>
+    </section>
+
+    <section id="report">
+      <h3>Report a problem</h3>
+      <p>This directory was put together by the National Health Fellows and was last checked on 14 August 2025, so some details may have changed. If you spot something wrong, such as a pin in the wrong place, directions that no longer work, a wrong clinic day or a missing postcode, please let the National Health Fellows team know.</p>
+      <p>When you report it, include the health centre's name and what needs to change.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Disclaimer: This directory was developed as part of the National Health Fellows program. Always confirm details with the facility before visiting.</p>
+    <p><a href="help">Help</a></p>
+  </footer>
+</body>
+</html>

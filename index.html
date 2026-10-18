@@ -53,12 +53,21 @@
     <section class="controls">
       <div class="control">
         <label for="searchInput">Search</label>
-        <input id="searchInput" type="text" placeholder="Search by name, address, ward, or directions...">
+        <input id="searchInput" type="text" placeholder="Search by name, address, ward, postcode, or directions...">
+        <a class="help-link" href="help">How does postcode search work?</a>
       </div>
       <div class="control">
         <label for="wardFilter">Ward</label>
         <select id="wardFilter">
           <option value="">All wards</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="clinicFilter">Clinic</label>
+        <select id="clinicFilter">
+          <option value="">Any clinic</option>
+          <option value="immunization">Immunization</option>
+          <option value="antenatal">Antenatal</option>
         </select>
       </div>
       <div class="control">
@@ -84,6 +93,7 @@
 
   <footer class="site-footer">
     <p>Disclaimer: This directory was developed as part of the National Health Fellows program. Information was current as of 2025-08-14. Always confirm details with the facility before visiting.</p>
+    <p><a href="help">Help</a></p>
   </footer>
 
   <!-- Leaflet JS -->
@@ -94,6 +104,8 @@
   ></script>
   <!-- Fuse.js for search -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="postcode.js"></script>
+  <script src="clinic-filter.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

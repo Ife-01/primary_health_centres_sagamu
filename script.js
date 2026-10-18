@@ -17,6 +17,7 @@ let markerLayer = L.layerGroup().addTo(map);
 const listEl = document.getElementById('list');
 const searchInput = document.getElementById('searchInput');
 const wardFilter = document.getElementById('wardFilter');
+const clinicFilter = document.getElementById('clinicFilter');
 const dayFilter = document.getElementById('dayFilter');
 
 async function loadData(){
@@ -26,6 +27,9 @@ async function loadData(){
   PHCS = await phcRes.json();
   SETTINGS = await setRes.json();
   CLINICS = await clinRes.json();
+
+  // allow shareable searches, e.g. index.html?q=B70
+  searchInput.value = new URLSearchParams(location.search).get('q') || '';
 
   initWardFilter();
   initMapBounds();
@@ -54,39 +58,34 @@ function initMapBounds(){
   }
 }
 
-function facilitiesForDay(f, selectedDay){
-  if(!selectedDay) return true;
-
-  // Opening hours logic (global)
-  const hours = SETTINGS.opening_hours_global || {};
-  const openToday = !!hours[selectedDay];
-
-  // Clinic-by-ward logic
-  const wardDays = CLINICS[f.ward] || {immunization:[], antenatal:[]};
-  const hasClinic = (wardDays.immunization || []).includes(selectedDay) || (wardDays.antenatal || []).includes(selectedDay);
-
-  return openToday || hasClinic;
+function facilitiesForClinic(f, clinic, selectedDay){
+  return ClinicFilter.facilitiesForClinic(f, clinic, selectedDay, SETTINGS, CLINICS);
 }
 
 function render(){
   const q = (searchInput.value || '').trim();
   const wVal = (wardFilter.value || '').trim();
+  const cVal = (clinicFilter.value || '').trim();
   const dVal = (dayFilter.value || '').trim();
 
   let rows = [...PHCS];
   // ward filter
   if (wVal) rows = rows.filter(x => (x.ward||'').trim() === wVal);
-  // day filter
-  rows = rows.filter(x => facilitiesForDay(x, dVal));
+  // clinic and clinic-day filter
+  rows = rows.filter(x => facilitiesForClinic(x, cVal, dVal));
 
   // search via Fuse if query
-  if(q){
+  if(Postcode.isPostcodeQuery(q)){
+    // postcode-style query: match exactly, since fuzzy matching pulls in unrelated facilities
+    rows = rows.filter(x => Postcode.matchesPostcode(x.postcode, q));
+  } else if(q){
     const fuse = new Fuse(rows, {
       keys: [
         { name: 'name', weight: 0.5 },
         { name: 'address', weight: 0.3 },
         { name: 'ward', weight: 0.2 },
-        { name: 'directions', weight: 0.4 }
+        { name: 'directions', weight: 0.4 },
+        { name: 'postcode', weight: 0.5 }
       ],
       threshold: 0.35,
       ignoreLocation: true,
@@ -101,6 +100,10 @@ function render(){
 
 function renderList(rows){
   listEl.innerHTML = '';
+  if(!rows.length){
+    listEl.innerHTML = '<div class="card"><p>No health centres match. If you picked a clinic, that clinic does not run on that day, so try another day.</p></div>';
+    return;
+  }
   rows.forEach(f => {
     const card = document.createElement('div');
     card.className = 'card';
@@ -127,6 +130,7 @@ function renderList(rows){
       <h3>${f.name || 'Unknown facility'}</h3>
       <div class="meta"><strong>Ward:</strong> ${f.ward || '—'}</div>
       <div class="meta"><strong>Address:</strong> ${f.address || '—'}</div>
+      ${f.postcode ? `<div class="meta"><strong>Postcode:</strong> ${f.postcode}</div>` : ''}
       <div class="meta"><strong>Directions:</strong> ${f.directions || '—'}</div>
 
       <div class="badges">${servicesBadges}</div>
@@ -162,6 +166,7 @@ function renderMap(rows){
       <div><strong>${f.name || 'Unknown facility'}</strong></div>
       <div><em>Ward:</em> ${f.ward || '—'}</div>
       <div><em>Address:</em> ${f.address || '—'}</div>
+      ${f.postcode ? `<div><em>Postcode:</em> ${f.postcode}</div>` : ''}
       <div><em>Directions:</em> ${f.directions || '—'}</div>
       <div style="margin-top:4px;">
         <a href="https://www.google.com/maps?q=${f.lat},${f.lng}" target="_blank" rel="noopener">Open in Maps</a>
@@ -183,6 +188,7 @@ function renderMap(rows){
 function setupSearch(){
   searchInput.addEventListener('input', render);
   wardFilter.addEventListener('change', render);
+  clinicFilter.addEventListener('change', render);
   dayFilter.addEventListener('change', render);
 }
 

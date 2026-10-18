@@ -6,7 +6,8 @@
     "lat": 6.716394,
     "lng": 3.521219,
     "phone": null,
-    "directions": "From Sabo or Coca-Cola Express (Sagamu)\nTake a car going towards Ogijo.\nDrop at PZ Estate Road, opposite Energy Switch Filling Station.\nFrom PZ Estate Road\nYou can either take a bike or walk.\n\nWalking Directions:\nFrom PZ Estate Street, take the 2nd turning on the left.\nTake the first turning on the right — this road is opposite a hotel.\nTake the first turning on the left, just after the Foursquare Church.\nAfisuru Health Centre is located beside an Anglican Church."
+    "directions": "From Sabo or Coca-Cola Express (Sagamu)\nTake a car going towards Ogijo.\nDrop at PZ Estate Road, opposite Energy Switch Filling Station.\nFrom PZ Estate Road\nYou can either take a bike or walk.\n\nWalking Directions:\nFrom PZ Estate Street, take the 2nd turning on the left.\nTake the first turning on the right — this road is opposite a hotel.\nTake the first turning on the left, just after the Foursquare Church.\nAfisuru Health Centre is located beside an Anglican Church.",
+    "postcode": "OG-20-A21-PT-10"
   },
   {
     "name": "AGBOWA IBIDO",
@@ -15,7 +16,8 @@
     "lat": 6.851995,
     "lng": 3.647027,
     "phone": null,
-    "directions": "Take a bike to Agbowa Ibido Health centre.\nIt is located behind the Ibido Palace."
+    "directions": "Take a bike to Agbowa Ibido Health centre.\nIt is located behind the Ibido Palace.",
+    "postcode": "OG-20-B73-NC-36"
   },
   {
     "name": "AIYEGBAMI",
@@ -24,7 +26,8 @@
     "lat": 6.837634,
     "lng": 3.652595,
     "phone": null,
-    "directions": "Take a bike to Shode, Aiyegbami Health centre"
+    "directions": "Take a bike to Shode, Aiyegbami Health centre",
+    "postcode": "OG-20-B70-RM-26"
   },
   {
     "name": "AJAKA",
@@ -33,7 +36,8 @@
     "lat": 6.853548,
     "lng": 3.635688,
     "phone": null,
-    "directions": "Take a bike to Ajaka Health centre.\nIt is beside the mosque around Awolowo Market.\nLocated on the street beside the Mobil Filling Station."
+    "directions": "Take a bike to Ajaka Health centre.\nIt is beside the mosque around Awolowo Market.\nLocated on the street beside the Mobil Filling Station.",
+    "postcode": "OG-20-B75-GE-18"
   },
   {
     "name": "AJEGUNLE",
@@ -42,7 +46,8 @@
     "lat": 6.692734,
     "lng": 3.494852,
     "phone": null,
-    "directions": "Take a car from Sabo or Coca-Cola Express in Sagamu going to Ogijo.\nDrop at the park.\nTake a keke (tricycle) to Ita-Oluwo.\nFrom Ita-Oluwo, take a bike to Ajegunle Health centre"
+    "directions": "Take a car from Sabo or Coca-Cola Express in Sagamu going to Ogijo.\nDrop at the park.\nTake a keke (tricycle) to Ita-Oluwo.\nFrom Ita-Oluwo, take a bike to Ajegunle Health centre",
+    "postcode": "OG-20-A05-CU-09"
   },
   {
     "name": "AMODU ALOWOMATANA",
@@ -51,7 +56,8 @@
     "lat": 6.846502,
     "lng": 3.647329,
     "phone": null,
-    "directions": "Take a bike to Amodu Alowomatan Health centre, Itunsokun.\nLocated beside Noibi Mosque."
+    "directions": "Take a bike to Amodu Alowomatan Health centre, Itunsokun.\nLocated beside Noibi Mosque.",
+    "postcode": "OG-20-B70-WK-45"
   },
   {
     "name": "ARUBA",
@@ -60,7 +66,8 @@
     "lat": 6.825422,
     "lng": 3.655275,
     "phone": null,
-    "directions": "Take a bike to Aruba Health centre.\nLocated close to Aruba Power Line or Sabo Agura."
+    "directions": "Take a bike to Aruba Health centre.\nLocated close to Aruba Power Line or Sabo Agura.",
+    "postcode": "OG-20-B72-CL-13"
   },
   {
     "name": "BATORO",
@@ -69,7 +76,8 @@
     "lat": 6.844058,
     "lng": 3.650475,
     "phone": null,
-    "directions": "Take a bike to Batoro Health centre.\nLocated opposite Batoro Palace."
+    "directions": "Take a bike to Batoro Health centre.\nLocated opposite Batoro Palace.",
+    "postcode": "OG-20-B70-TM-33"
   },
   {
     "name": "EMUREN",
@@ -78,7 +86,8 @@
     "lat": 6.696772,
     "lng": 3.617214,
     "phone": null,
-    "directions": "From Sabo, Sagamu, take a bike to Emuren Health centre.\nLocated close to the Emuren Garage where bikemen stay"
+    "directions": "From Sabo, Sagamu, take a bike to Emuren Health centre.\nLocated close to the Emuren Garage where bikemen stay",
+    "postcode": "OG-20-A76-CN-06"
   },
   {
     "name": "IJAGBA",
@@ -87,7 +96,8 @@
     "lat": 6.847589,
     "lng": 3.645721,
     "phone": null,
-    "directions": "Take a bike to Ijagba Health centre.\nLocated beside Ijagba Palace."
+    "directions": "Take a bike to Ijagba Health centre.\nLocated beside Ijagba Palace.",
+    "postcode": null
   },
   {
     "name": "IPOJI",
@@ -96,7 +106,8 @@
     "lat": 6.845309,
     "lng": 3.652082,
     "phone": null,
-    "directions": "Take a bike to Ipoji Health centre, it is along OOUTH road"
+    "directions": "Take a bike to Ipoji Health centre, it is along OOUTH road",
+    "postcode": "OG-20-B73-KX-39"
   },
   {
     "name": "ISOTE",
@@ -105,7 +116,8 @@
     "lat": 6.847996,
     "lng": 3.641809,
     "phone": null,
-    "directions": "Take a bike to Isote Health centre"
+    "directions": "Take a bike to Isote Health centre",
+    "postcode": "OG-20-B70-VU-20"
   },
   {
     "name": "ITUNSOKUN",
@@ -114,7 +126,8 @@
     "lat": 6.841372,
     "lng": 3.646416,
     "phone": null,
-    "directions": "Take a bike to Baruwa, Itunsoku Health Centre. The street is on the left side of KFC. The facility is located near the garage that overlooks Akarigbo Road."
+    "directions": "Take a bike to Baruwa, Itunsoku Health Centre. The street is on the left side of KFC. The facility is located near the garage that overlooks Akarigbo Road.",
+    "postcode": null
   },
   {
     "name": "LATAWA",
@@ -123,7 +136,8 @@
     "lat": 6.844648,
     "lng": 3.644424,
     "phone": null,
-    "directions": "Take a bike to Latawa Health centre"
+    "directions": "Take a bike to Latawa Health centre",
+    "postcode": "OG-20-B70-VW-47"
   },
   {
     "name": "LEGACY HC",
@@ -132,7 +146,8 @@
     "lat": 6.852567,
     "lng": 3.654561,
     "phone": null,
-    "directions": "Take a bike to Legacy HC at Isale Oko.\nLocated on the street between NNPC and Rain Oil.\nThe street is close to the Veterinary Hospital, Isale Oko"
+    "directions": "Take a bike to Legacy HC at Isale Oko.\nLocated on the street between NNPC and Rain Oil.\nThe street is close to the Veterinary Hospital, Isale Oko",
+    "postcode": "OG-20-B73-NY-16"
   },
   {
     "name": "LIKOSI",
@@ -141,7 +156,8 @@
     "lat": 6.761471,
     "lng": 3.536275,
     "phone": null,
-    "directions": "Take a keke (tricycle) from Sagamu to Likosi Bus Stop.\nLikosi HC is located around that area."
+    "directions": "Take a keke (tricycle) from Sagamu to Likosi Bus Stop.\nLikosi HC is located around that area.",
+    "postcode": null
   },
   {
     "name": "MAKUN OJUMELE",
@@ -150,7 +166,8 @@
     "lat": 6.849035,
     "lng": 3.630761,
     "phone": null,
-    "directions": "Take a bike to Makun HC.\nLocated before the Army Children School, Makun, opposite the NYSC Secretariat."
+    "directions": "Take a bike to Makun HC.\nLocated before the Army Children School, Makun, opposite the NYSC Secretariat.",
+    "postcode": null
   },
   {
     "name": "OGIJO HC",
@@ -159,7 +176,8 @@
     "lat": 6.70418,
     "lng": 3.511011,
     "phone": null,
-    "directions": "Take a car from Sabo or Coca-Cola Express in Sagamu going to Ogijo.\nDrop at the park and walk towards the health centre.\nIt is located opposite St. John School’s football field."
+    "directions": "Take a car from Sabo or Coca-Cola Express in Sagamu going to Ogijo.\nDrop at the park and walk towards the health centre.\nIt is located opposite St. John School’s football field.",
+    "postcode": "OG-20-A19-PX-05"
   },
   {
     "name": "OGEDE",
@@ -168,7 +186,8 @@
     "lat": 6.716801,
     "lng": 3.481645,
     "phone": null,
-    "directions": "Take a car from Sabo or Coca-Cola Express in Sagamu going to Ogijo.\nDrop at the park.\nAsk for directions to where you can take a bike to Ogede.\nTake a bike to Ogede Health Centre."
+    "directions": "Take a car from Sabo or Coca-Cola Express in Sagamu going to Ogijo.\nDrop at the park.\nAsk for directions to where you can take a bike to Ogede.\nTake a bike to Ogede Health Centre.",
+    "postcode": "OG-20-A18-UD-13"
   },
   {
     "name": "OWODE EPOTA",
@@ -177,7 +196,8 @@
     "lat": 6.822969,
     "lng": 3.633803,
     "phone": null,
-    "directions": "Take a bike to Kara/Owode Epota.\nLocated down the road beside Remo Divisional High School"
+    "directions": "Take a bike to Kara/Owode Epota.\nLocated down the road beside Remo Divisional High School",
+    "postcode": null
   },
   {
     "name": "SABO AGURA",
@@ -186,7 +206,8 @@
     "lat": 6.832458,
     "lng": 3.647943,
     "phone": null,
-    "directions": "Take a bike to Agura Health centre.\nLocated on Skylark Hospital Road."
+    "directions": "Take a bike to Agura Health centre.\nLocated on Skylark Hospital Road.",
+    "postcode": "OG-20-B70-JY-20"
   },
   {
     "name": "SABO GRA",
@@ -195,7 +216,8 @@
     "lat": 6.836423,
     "lng": 3.633725,
     "phone": null,
-    "directions": "Take a bike to Onijoku.\nThe health centre is located within the Onijoku Palace, close to Sabo Underbridge"
+    "directions": "Take a bike to Onijoku.\nThe health centre is located within the Onijoku Palace, close to Sabo Underbridge",
+    "postcode": null
   },
   {
     "name": "SIMAWA",
@@ -204,7 +226,8 @@
     "lat": 6.774019,
     "lng": 3.50171,
     "phone": null,
-    "directions": "Take a keke (tricycle) or bike from Sabo to Likosi Bus Stop.\nFrom Likosi, take a bike to Simawa Health centre.\nLocated opposite Simawa High School"
+    "directions": "Take a keke (tricycle) or bike from Sabo to Likosi Bus Stop.\nFrom Likosi, take a bike to Simawa Health centre.\nLocated opposite Simawa High School",
+    "postcode": "OG-20-A55-JJ-23"
   },
   {
     "name": "SOTUBO",
@@ -213,6 +236,7 @@
     "lat": 6.807533,
     "lng": 3.584403,
     "phone": null,
-    "directions": "Take a keke (tricycle) to Sotubo.\nDrop at the health centre — the signboard is visible along Sagamu–Ikorodu Road."
+    "directions": "Take a keke (tricycle) to Sotubo.\nDrop at the health centre — the signboard is visible along Sagamu–Ikorodu Road.",
+    "postcode": null
   }
 ]
